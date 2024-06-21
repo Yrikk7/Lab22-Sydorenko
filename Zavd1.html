@@ -1,0 +1,242 @@
+<html>
+
+<head>
+    <title>func </title>
+</head>
+
+<body>
+    <div style="display: flex; flex-direction: column; text-align: center; font-size: 30px;">
+        <h1> Залишок від ділення на 60 </h1><br>
+        <input type="text" id="def" value="3"><br>
+        <button type="button" onclick="Second()">Вирахувати</button>
+        <h1 style="font-size: 15px;" id="ger">.......</h1>
+    </div>
+    <h1 style="background-color: brown;">.....</h1>
+    <div style="display: flex; flex-direction: column; text-align: center; font-size: 30px;">
+        <h1> Периметр многокутника </h1><br>
+        <input type="text" id="d" value="3"><br>
+        <input type="text" id="i" value="3"><br>
+        <button type="button" onclick="Perimetr()">Вирахувати</button>
+        <h1 style="font-size: 15px;" id="g">.......</h1>
+    </div>
+    <h1 style="background-color: brown;">.....</h1>
+    <div style="display: flex; flex-direction: column; text-align: center; font-size: 30px;">
+        <h1> виводить fizz замість чисел, кратних 3 /або/ виводить buzz замість чисел, кратних 5 /або/ виводить fizzbuzz
+            замість чисел, кратних як 3, так і 5 </h1><br>
+        <input type="text" id="ff" value="3"><br>
+        <button type="button" onclick="Funs()">Вирахувати</button>
+        <h1 style="font-size: 15px;" id="gg">.......</h1>
+    </div>
+    <h1 style="background-color: brown;">.....</h1>
+    <div style="display: flex; flex-direction: column; text-align: center; font-size: 30px;">
+        <h1> Середне арифметичне 3-ох чисел </h1><br>
+        <input type="text" id="l" value="3"><br>
+        <input type="text" id="p" value="3"><br>
+        <input type="text" id="y" value="3"><br>
+        <button type="button" onclick="Calculate()">Вирахувати</button>
+        <h1 style="font-size: 15px;" id="kl">.......</h1>
+    </div>
+    <h1 style="background-color: brown;">.....</h1>
+    <div style="display: flex; flex-direction: column; text-align: center; font-size: 30px;">
+        <h1> Ввести 3 числа </h1><br>
+        <input type="text" id="lg" value="3"><br>
+        <input type="text" id="ps" value="3"><br>
+        <input type="text" id="yr" value="3"><br>
+        <button type="button" onclick="isDivisible()">Вирахувати</button>
+        <h1 style="font-size: 15px;" id="hj">.......</h1>
+    </div>
+    <h1 style="background-color: brown;">.....</h1>
+    <div style="display: flex; flex-direction: column; text-align: center; font-size: 30px;">
+        <h1> Виведення масиву </h1><br>
+        <input type="text" id="hi" value="3"><br>
+        <button type="button" onclick="Arr()">Вирахувати</button>
+        <h1 style="font-size: 15px;" id="er">.......</h1><br>
+        <h1 style="font-size: 15px;" id="ere1">.......</h1><br>
+        <h1 style="font-size: 15px;" id="ere2">.......</h1><br>
+        <h1 style="font-size: 15px;" id="ere3">.......</h1><br>
+        <h1 style="font-size: 15px;" id="ere4">.......</h1><br>
+        <h1 style="font-size: 15px;" id="ere5">.......</h1>
+    </div>
+    <h1 style="background-color: brown;">.....</h1>
+    <div style="display: flex; flex-direction: column; text-align: center; font-size: 30px;">
+        <h1> Виведення двовимірного масиву </h1><br>
+        <input type="text" id="c1" value="..."><br>
+        <input type="text" id="c2" value="..."><br>
+        <button type="button" onclick="Arr2()">Вирахувати</button>
+    </div>
+    <h1 style="background-color: brown;">.....</h1>
+    <div style="display: flex; flex-direction: column; text-align: center; font-size: 30px;">
+        <h1> 4 формули </h1><br>
+        <input type="text" id="l1" value="3"><br>
+        <input type="text" id="l2" value="3"><br>
+        <button type="button" onclick="Formul()">Вирахувати</button>
+        <h1 style="font-size: 15px;" id="s1">.......</h1><br>
+        <h1 style="font-size: 15px;" id="s2">.......</h1><br>
+        <h1 style="font-size: 15px;" id="s3">.......</h1><br>
+        <h1 style="font-size: 15px;" id="s4">.......</h1><br>
+    </div>
+    <h1 style="background-color: brown;">.....</h1>
+    <div style="display: flex; flex-direction: column; text-align: center; font-size: 30px;">
+        <h1> приймати число і визначати </h1><br>
+        <input type="text" id="h1" value="3"><br>
+        <button type="button" onclick="Namber()">Вирахувати</button>
+        <h1 style="font-size: 15px;" id="mr">.......</h1>
+    </div>
+    <h1 style="background-color: brown;">.....</h1>
+    <div style="display: flex; flex-direction: column; text-align: center; font-size: 30px;">
+        <h1> Відсортувати масив </h1><br>
+        <input type="text" id="ui" value="3"><br>
+        <button type="button" onclick="Arr3()">Вирахувати</button>
+        <h1 style="font-size: 15px;" id="mc">.......</h1>
+    </div>
+    <h1 style="background-color: brown;">.....</h1>
+    <div style="display: flex; flex-direction: column; text-align: center; font-size: 30px;">
+        <h1> Видалення дублікатів з масиву </h1><br>
+        <input type="text" id="za" value="3"><br>
+        <button type="button" onclick="Arr4()">Вирахувати</button>
+        <h1 style="font-size: 15px;" id="az">.......</h1>
+    </div>
+    <h1 style="background-color: brown;">.....</h1>
+    <script>
+        function Second() {
+            var df = parseInt(document.getElementById("def").value);
+            document.getElementById("ger").textContent = df % 60;
+        }
+        function Perimetr() {
+            var df = parseInt(document.getElementById("d").value);
+            var d = parseInt(document.getElementById("i").value);
+            document.getElementById("g").textContent = df * d;
+        }
+        function Funs() {
+            var df = parseInt(document.getElementById("ff").value);
+            if (df % 3 === 0 && df % 5 === 0) {
+                document.getElementById("gg").textContent = "fizzbuzz";
+            }
+            else if (df % 3 === 0) {
+                document.getElementById("gg").textContent = "fizz";
+            }
+            else if (df % 5 === 0) {
+                document.getElementById("gg").textContent = "buzz";
+            }
+            else {
+                document.getElementById("gg").textContent = "other";
+            }
+        }
+        function Calculate() {
+            var df = parseInt(document.getElementById("l").value);
+            var d = parseInt(document.getElementById("p").value);
+            var dd = parseInt(document.getElementById("y").value);
+            document.getElementById("kl").textContent = (df + d + dd) / 3;
+        }
+        function isDivisible() {
+            var df = parseInt(document.getElementById("lg").value);
+            var d = parseInt(document.getElementById("ps").value);
+            var dd = parseInt(document.getElementById("yr").value);
+            if (df % dd === 0 && df % d === 0) {
+                document.getElementById("hj").textContent = df % dd + "and" + df % d;
+            } else {
+                document.getElementById("hj").textContent = "Введіть додатні числа або перше число не ділиться на друге та третє";
+            }
+            /*return (df % dd === 0 && df % d === 0) ? true : false; */
+            /*return df % dd === 0 && df % d === 0;*/
+        }
+        function Arr() {
+            var df = parseInt(document.getElementById("hi").value);
+            var arr1 = []; // Создаем пустой массив, а не новый объект Arr
+            for (let i = 0; i < df; i++) {
+                arr1.push(Math.floor(Math.random() * (100 - 1 + 1)) + 1); // Заполняем массив случайными числами
+            }
+            var yi;
+            document.getElementById("er").textContent = arr1;
+            document.getElementById("ere5").textContent = Math.max(...arr1);
+            document.getElementById("ere1").textContent = Math.min(...arr1);
+            document.getElementById("ere2").textContent = arr1.reduce((sum, num) => sum + num, 0);
+            document.getElementById("ere3").textContent = document.getElementById("ere2").textContent / df;
+            document.getElementById("ere4").textContent = arr1.filter(num => num % 2 !== 0);
+        }
+        function Arr2() {
+            var matrix = [];
+            var maxValue = 10
+            var minValue = -10
+            for (var i = 0; i < 5; i++) {
+                var row = [];
+                for (var j = 0; j < 5; j++) {
+                    row.push(Math.floor(Math.random() * (maxValue - minValue + 1)) + minValue);
+                }
+                matrix.push(row);
+            }
+            document.getElementById("c1").value = JSON.stringify(matrix);
+            var size = matrix.length;
+            for (var i = 0; i < size; i++) {
+                if (matrix[i][i] < 0) {
+                    matrix[i][i] = 0;
+                } else if (matrix[i][i] > 0) {
+                    matrix[i][i] = 1;
+                }
+            }
+            document.getElementById("c2").value = JSON.stringify(matrix);
+        }
+        function Formul() {
+            var df = parseInt(document.getElementById("l1").value);
+            var d = parseInt(document.getElementById("l2").value);
+            function Add(int, int) {
+                document.getElementById("s1").textContent = df + d
+            }
+            Add(df, d)
+            function Sub(int, int) {
+                document.getElementById("s2").textContent = df - d
+            }
+            Sub(df, d)
+            function Mul(int, int) {
+                document.getElementById("s3").textContent = df * d
+            }
+            Mul(df, d)
+            function Div(int, int) {
+                if (d != 0) {
+                    document.getElementById("s4").textContent = df / d
+                }
+            }
+            Div(df, d)
+        }
+        function Namber() {
+            var df = parseInt(document.getElementById("h1").value);
+            if (df % 2 === 0 && df % 5 === 0 && df % 3 === 0 && df % 6 === 0 && df % 9 === 0) {
+                document.getElementById("mr").textContent = "введене число: " + df + "ділиться вона на 2, 5, 3, 6, 9 без залишку";
+            }
+            else if (df > 0) {
+                document.getElementById("mr").textContent = "введене число: " + df + "додатнє";
+            }
+            else if (df < 0) {
+                document.getElementById("mr").textContent = "введене число: " + df + "від'ємне";
+            }
+            else if (df % df == 0) {
+                document.getElementById("mr").textContent = "введене число: " + df + "є простим";
+            }
+        }
+        function Arr3() {
+            var df = document.getElementById("ui").value;
+            var arr = df.split(","); 
+        
+            for (var i = 0; i < arr.length; i++) {
+                if (!isNaN(arr[i])) {
+                    arr[i] = Math.pow(parseInt(arr[i]), 2);
+                }
+            }
+            document.getElementById("mc").textContent = JSON.stringify(arr);
+        }
+        function Arr4() {
+            var df = document.getElementById("za").value;
+            var arr = df.split(","); 
+        
+            var uniqueArray = [];
+            for (var i = 0; i < arr.length; i++) {
+                if (uniqueArray.indexOf(arr[i]) === -1) {
+                    uniqueArray.push(arr[i]);
+                }
+            }
+            document.getElementById("az").textContent = JSON.stringify(uniqueArray); 
+        }
+    </script>
+</body>
+
+</html>
